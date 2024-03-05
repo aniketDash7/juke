@@ -1,1 +1,2 @@
-# juke
+# Music Streaming Application ( JUKE )
+
