@@ -1,5 +1,3 @@
-# Music Streaming Application ( JUKE )
-
 # Description 
 The developed music app is a feature-rich platform designed to play .mp3 files, implement caching using Redis, utilize APIs via Flask, implement role-based authentication, and handle backend jobs using Celery for scheduling tasks. The app encompasses three distinct roles: users, creators, and administrators. 
 Technologies Used 
