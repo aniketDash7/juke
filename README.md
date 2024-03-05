@@ -14,7 +14,7 @@ Redis and Celery for batch jobs
 WSL for Windows OS compatibility 
 Database Schema Design 
 The database schema design has been modified to include an additional table and relationships. Here are the changes: 
-Tables 
+# Tables 
 1. User 
 - Columns: 
 - `id`: Integer, primary key 
@@ -57,47 +57,47 @@ Tables
 
 # Architecture and Features 
 The project directory is structured as follows: 
-● application 
-○ init.py 
-○ controllers.py 
-○ endpoints.py 
-○ instances.py 
-○ mail_service.py 
-○ models.py 
-○ security.py 
-○ tasks.py 
-○ worker.py 
-● instance 
-○ music.db
-● static 
-○ components 
-■ Account.js 
-■ AdminDashboard.js 
-■ AdminLogin.js 
-■ AllUsers.js 
-■ CreatorHome.js 
-■ Player.js 
-■ Profile.js 
-■ UserHome.js 
-■ UserLogin.js 
-■ UserRegistration.js 
-■ Welcome.js 
-○ posterfiles 
-■ defaultPoster.png 
-○ trackfiles 
-○ index.js 
-○ router.js 
-● templates 
-○ index.html 
-○ monthly_report.html 
-● celeryconfig.py 
-● config.py 
-● initial_changes.py 
-● main.py 
-● requirements.txt 
+- ● application 
+- ○ init.py 
+- ○ controllers.py 
+- ○ endpoints.py 
+- ○ instances.py 
+- ○ mail_service.py 
+- ○ models.py 
+- ○ security.py 
+- ○ tasks.py 
+- ○ worker.py 
+- ● instance 
+- ○ music.db
+- ● static 
+- ○ components 
+- ■ Account.js 
+- ■ AdminDashboard.js 
+- ■ AdminLogin.js 
+- ■ AllUsers.js 
+- ■ CreatorHome.js 
+- ■ Player.js 
+- ■ Profile.js 
+- ■ UserHome.js 
+- ■ UserLogin.js 
+- ■ UserRegistration.js 
+- ■ Welcome.js 
+- ○ posterfiles 
+- ■ defaultPoster.png 
+- ○ trackfiles 
+- ○ index.js 
+- ○ router.js 
+- ● templates 
+- ○ index.html 
+- ○ monthly_report.html 
+- ● celeryconfig.py 
+- ● config.py 
+- ● initial_changes.py 
+- ● main.py 
+- ● requirements.txt 
 # Features 
 The app allows users to play songs from anywhere within the app. Creators can upload songs, including song posters, and edit song lyrics as needed. The administrator can delete songs based on the number of flags it gets. Backend jobs like creating a .csv file of the songs and creating a monthly report of the songs and their usage, work fine. Users, creators and the administrator can search for songs in the search bar and play the song. 
-Video Link 
+# Video Link 
 https://drive.google.com/file/d/1o8dvcjiMFM9ajO2HgijU-BWqXyDFcSHQ/view?usp=drive_link
 
 
